@@ -39,6 +39,7 @@ const COVERAGE_THRESHOLD_FOR_BUMP = 1;
  *
  * @param {string} filePath - path to the file to load
  * @returns {object} the JavaScript object parsed from the file
+ *
  */
 function loadData(filePath) {
   const json = fs.readFileSync(filePath);
