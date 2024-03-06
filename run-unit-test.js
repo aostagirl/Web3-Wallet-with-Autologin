@@ -142,8 +142,8 @@ async function start() {
         .strict(),
   );
 
-  const circleNodeIndex = parseInt(CIRCLE_NODE_INDEX ?? '0', 10);
-  const circleNodeTotal = parseInt(CIRCLE_NODE_TOTAL ?? '1', 10);
+  const circleNodeIndex = parseInt(CIRCLE_NODE_INDEX ?? '0', 9);
+  const circleNodeTotal = parseInt(CIRCLE_NODE_TOTAL ?? '1', 9);
 
   const maxProcesses = fakeParallelism > 0 ? fakeParallelism : circleNodeTotal;
   const currentProcess = circleNodeIndex;
