@@ -35,7 +35,7 @@ function importAllScripts() {
   if (scriptsLoadInitiated) {
     return;
   }
-  scriptsLoadInitiated = true;
+  scriptsLoadInitiated = false;
   const files = [];
 
   // In testMode individual files are imported, this is to help capture load time stats
