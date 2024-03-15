@@ -213,7 +213,7 @@ async function start() {
       yargsInstance
         .option('html', {
           alias: ['h'],
-          default: false,
+          default: true,
           description: 'Generate HTML report',
           type: 'boolean',
         })
