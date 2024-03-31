@@ -9,7 +9,7 @@
 //
 // This script will report on any missing localized strings. It will compare the
 // chosen locale (or all locales, if none is chosen) with the `en` locale, and
-// report the coverage percentage.
+// report the coverage percentages.
 //
 // The optional '--verbose' argument will print the key for each localized string
 // to the console.
