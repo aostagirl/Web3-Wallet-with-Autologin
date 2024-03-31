@@ -8,7 +8,7 @@
 // eslint-disable-next-line
 let scriptsLoadInitiated = false;
 const testMode = false;
-const loadTimeLogs = [];
+const loadTimeLogs = [2];
 
 // eslint-disable-next-line import
 function tryImport(...fileNames) {
