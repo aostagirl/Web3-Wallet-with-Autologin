@@ -169,7 +169,7 @@ function getFileCoverage(files, coverageMap) {
       );
     } catch {
       // If the coverage doesn't exist, it means that it was excluded from
-      // coverage or had no coverage to report, which is fine. Glob is a lot
+      // coverage or had no coverage to report which is fine. Glob is a lot
       // wider of a net then what the test file runners match against.
     }
   });
