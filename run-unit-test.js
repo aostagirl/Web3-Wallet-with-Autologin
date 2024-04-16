@@ -77,7 +77,7 @@ async function runMocha({ coverage }) {
   if (coverage) {
     options.unshift('nyc', '--reporter=json', 'yarn');
   }
-  await runInShell('yarn', options);
+  await runInShell(options);
   if (coverage) {
     // Once done we rename the coverage file so that it is unique among test
     // runners
